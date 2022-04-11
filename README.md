@@ -1,6 +1,6 @@
 # leafletGPV
 ## 概要
-NetCDF形式のメソ数値予報モデルGPV（MSM-S）を**Electron**上のleafletで表示できます。
+NetCDF形式のメソ数値予報モデルGPV（MSM-S）を**Electron**上のleafletで表示。
 ![格納方式](pic/ss.png)
 ## 使い方
 ### 必要環境
