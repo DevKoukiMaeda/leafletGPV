@@ -1,0 +1,15 @@
+{
+  "name": "leafletgpv",
+  "version": "1.0.0",
+  "description": "\"Example of displaying GPV forecast value in leaflet on electron\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "KoukiMaeda",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^18.0.3"
+  }
+}
