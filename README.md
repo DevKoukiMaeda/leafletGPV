@@ -190,7 +190,7 @@ for (let index = 0; index < this.lat_array.length - 1 ; index++) {
                     p3[1]-(Ydiff*2)];
 
 ```
-![ピクセル作成](pic/grid.svg)
+![ピクセル作成](pic/grid.png)
 変換したXY座標は目的のピクセルの中心点であるため、
 図のように１つあとの座標を利用して、**p1~p4**までの座標を求めます。
 ```js
@@ -235,7 +235,7 @@ templayer = turf.featureCollection(emptyGrid);
 **turf.featureCollection**でピクセルのポリゴンを追加した1次配列から
 ラスターデータを生成します。
 
-![変換](pic/pixel.svg)
+![変換](pic/pixel.png)
 ラスターデータと時間、netcdfjsの予報値の関係性
 および取得方法を簡略的に説明した図です。
 時刻1のX:2,Y:1の予報値の取得をしています。
